@@ -5,6 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "numpy>=2.2.0",
+    "ipykernel>=6.29.5",
     "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "tensorflow",
 ]
+
+[tool.uv.sources]
+tensorflow = { url = "https://storage.googleapis.com/tensorflow/versions/2.18.0/tensorflow-2.18.0-cp311-cp311-macosx_12_0_arm64.whl" }
