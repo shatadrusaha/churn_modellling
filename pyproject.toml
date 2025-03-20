@@ -3,6 +3,7 @@ name = "churn-modellling"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+package-mode = false
 requires-python = ">=3.11"
 dependencies = [
     "numpy>=2.2.0",
